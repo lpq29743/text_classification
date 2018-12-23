@@ -6,9 +6,9 @@ The goal of this repository is to implement text classification in traditional m
 
 ### Traditional Machine Learning Methods
 
-- [x] Bow (Bag of Words) + KNN (K-Nearest Neighbor): 0.6649
+- [x] BOW (Bag of Words) + KNN (K-Nearest Neighbor): 0.6649
+- [x] TFIDF (Term Frequency-Inverse Document Frequency) + KNN (K-Nearest Neighbor): 0.714
 - [ ] N-gram
-- [ ] TF-IDF (Term Frequency-Inverse Document Frequency)
 - [ ] TextRank
 - [ ] LDA (Latent Dirichlet Allocation)
 

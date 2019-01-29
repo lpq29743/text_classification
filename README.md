@@ -46,3 +46,5 @@ The goal of this repository is to implement text classification in traditional m
 ## To-do List
 
 - Class `Vectorizer` lazy initialization
+- Cross Validation
+- Grid Search

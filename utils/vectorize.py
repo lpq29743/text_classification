@@ -7,6 +7,8 @@ class Vectorizer:
             self.vectorizer = CountVectorizer(analyzer='word', input='content', stop_words='english', ngram_range=ngram_range, max_features=max_features)
         elif method == 'TFIDF':
             self.vectorizer = TfidfVectorizer(analyzer='word', input='content', stop_words='english', max_features=max_features)
+        else:
+            raise ValueError('Feature extraction method does not exist.')
 
     def feature_extraction(self, X_train, X_test):
         bag_of_words_train = self.vectorizer.fit_transform(X_train).toarray()

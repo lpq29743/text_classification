@@ -29,6 +29,7 @@ The goal of this repository is to implement text classification in traditional m
 - [ ] TextCNN
 - [ ] TextRNN
 - [ ] RCNN
+- [ ] Capsule Network
 - [ ] Transformer
 - [ ] Elmo
 - [ ] BERT

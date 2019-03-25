@@ -52,10 +52,11 @@ The goal of this repository is to implement text classification in traditional m
 ### Effects of Deep Learning Methods
 | Methods | Accuracy |
 | :---: | :---: |
-| DAN | 0886 |
+| DAN | 0.886 |
 
 ## To-do List
 
+- Word2Vec Methods (Pre-trained and Trained Using Corpus) Comparision
 - Class `Vectorizer` lazy initialization
 - Cross Validation
 - Grid Search

@@ -25,6 +25,7 @@ The goal of this repository is to implement text classification in traditional m
 
 ### Deep Learning Methods
 
+- [x] DAN: "Deep Unordered Composition Rivals Syntactic Methods for Text Classification"
 - [ ] FastText
 - [ ] TextCNN
 - [ ] TextRNN
@@ -47,6 +48,11 @@ The goal of this repository is to implement text classification in traditional m
 | BoW (ngram-range=(2, 3))| 0.578 | 0.625 | 0.625 | 0.636 | 0.648 | 0.584 | 0.600 | 0.662 | 0.667 | 0.684 |
 | BoW (ngram-range=(3, 3))| 0.536 | 0.572 | 0.525 | 0.578 | 0.581 | 0.532 | 0.539 | 0.561 | 0.576 | 0.590 |
 | TFIDF | 0.714 | 0.705 | 0.594 | 0.759 | 0.760 | 0.723 | 0.714 | 0.807 | 0.804 | 0.824
+
+### Effects of Deep Learning Methods
+| Methods | Accuracy |
+| :---: | :---: |
+| DAN | 0886 |
 
 ## To-do List
 

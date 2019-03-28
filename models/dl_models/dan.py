@@ -75,7 +75,7 @@ class DAN:
             i, train_cost / X_train.shape[0], train_acc / X_train.shape[0], test_cost / X_test.shape[0],
             test_acc / X_test.shape[0]))
 
-            if test_acc > max_acc:
+            if test_acc / X_test.shape[0] > max_acc:
                 max_acc = test_acc / X_test.shape[0]
                 step = i
             else:
@@ -84,11 +84,11 @@ class DAN:
             if stop_num == self.para['stop_num']:
                 break
 
-        print('Best Performance: %.6f at Epoch %d' % (max_acc, step))
+        print('Best Performance: %.3f at Epoch %d' % (max_acc, step))
 
 
 if __name__ == '__main__':
-    vectorizer = vectorize.Vectorizer('Word2Vec', emb_fname='/home/linpq/Word2Vec/glove.840B.300d.txt',
+    vectorizer = vectorize.Vectorizer('Word2Vec', emb_fname='../../data/imdb.vec',
                                       word_index_fname='../../data/imdb_word_index.json')
     para = {'learning_rate': 0.0005, 'l2_reg': 1e-4, 'hidden_size': 300, 'epoch_num': 25, 'batch_size': 200,
             'stop_num': 10}

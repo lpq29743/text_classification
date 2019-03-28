@@ -53,7 +53,7 @@ The goal of this repository is to implement text classification in traditional m
 | Methods | DAN |
 | :---: | :---: |
 | Trained Using Corpus | 0.880 |
-| Trained Using Corpus | 0.886 |
+| Glove | 0.886 |
 
 ## To-do List
 

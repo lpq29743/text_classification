@@ -25,9 +25,8 @@ The goal of this repository is to implement text classification in traditional m
 
 ### Deep Learning Methods
 
-- [x] DAN: "Deep Unordered Composition Rivals Syntactic Methods for Text Classification"
-- [ ] FastText
-- [ ] TextCNN
+- [x] DAN: [Deep Unordered Composition Rivals Syntactic Methods for Text Classification](http://www.aclweb.org/anthology/P15-1162)
+- [x] TextCNN: [Convolutional Neural Networks for Sentence Classification](https://www.aclweb.org/anthology/D14-1181)
 - [ ] TextRNN
 - [ ] RCNN
 - [ ] Capsule Network
@@ -50,10 +49,10 @@ The goal of this repository is to implement text classification in traditional m
 | TFIDF | 0.714 | 0.705 | 0.594 | 0.759 | 0.760 | 0.723 | 0.714 | 0.807 | 0.804 | 0.824
 
 ### Effects of Word2Vec Methods 
-| Methods | DAN |
-| :---: | :---: |
-| Trained Using Corpus | 0.880 |
-| Glove | 0.886 |
+| Methods | DAN | TextCNN |
+| :---: | :---: | :---: |
+| Trained Using Corpus | 0.880 | 0.893 |
+| Glove | 0.886 | 0.900 |
 
 ## To-do List
 
@@ -62,3 +61,4 @@ The goal of this repository is to implement text classification in traditional m
 - Cross Validation
 - Grid Search
 - Visualize text feature
+- Shared Classifier Module for Deep Learning

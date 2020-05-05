@@ -2,6 +2,8 @@
 
 The goal of this repository is to implement text classification in traditional machine learning methods and deep learning methods (in Pytorch).
 
+Note: Since I have to spend more time in conducting research, I stop reproducing classic papers on the task of text classification. However, I will still maintain this project. Any contributions lke issues and pull requests are welcome.
+
 ## Models
 
 ### Feature Extraction
@@ -27,12 +29,12 @@ The goal of this repository is to implement text classification in traditional m
 
 - [x] DAN: [Deep Unordered Composition Rivals Syntactic Methods for Text Classification](http://www.aclweb.org/anthology/P15-1162)
 - [x] TextCNN: [Convolutional Neural Networks for Sentence Classification](https://www.aclweb.org/anthology/D14-1181)
-- [ ] TextRNN
-- [ ] RCNN
-- [ ] Capsule Network
-- [ ] Transformer
-- [ ] Elmo
-- [ ] BERT
+- [x] TextRNN: [Recurrent Neural Network for Text Classification with Multi-Task Learning](https://www.ijcai.org/Proceedings/16/Papers/408.pdf)
+- [ ] <del>RCNN</del>
+- [ ] <del>Capsule Network</del>
+- [ ] <del>Transformer</del>
+- [ ] <del>Elmo</del>
+- [ ] <del>BERT</del>
 
 ## Experiments
 
@@ -49,10 +51,10 @@ The goal of this repository is to implement text classification in traditional m
 | TFIDF | 0.714 | 0.705 | 0.594 | 0.759 | 0.760 | 0.723 | 0.714 | 0.807 | 0.804 | 0.824
 
 ### Effects of Word2Vec Methods 
-| Methods | DAN | TextCNN |
-| :---: | :---: | :---: |
-| Trained Using Corpus | 0.880 | 0.893 |
-| Glove | 0.886 | 0.900 |
+| Methods | DAN | TextCNN | TextRNN |  
+| :---: | :---: | :---: | :---: |
+| Trained Using Corpus | 0.880 | 0.893 | 0.903 |
+| Glove | 0.886 | 0.900 | 0.890 |
 
 ## To-do List
 
